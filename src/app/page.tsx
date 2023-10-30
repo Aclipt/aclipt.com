@@ -63,9 +63,9 @@ export default function Home() {
       </div>
 
 
-      <div className="justify-end">
+      <div className="justify-end italic">
         <p>Affiliate links:</p>
-        <Link className="" href="https://vendunt.com/">Vendunt</Link>
+        <Link className="text-blue-300" href="https://vendunt.com/">Vendunt</Link>
       </div>
     </main>
   )
