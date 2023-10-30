@@ -48,7 +48,7 @@ export default function Home() {
           <p>Nous vous remercions une fois de plus pour votre soutien et votre compréhension.</p>
           <p>- L&apos;équipe Aclipt</p>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center pt-10">
             <img className="" src="/aclipt.png" alt="Aclipt Logo" width="150" height="150" />
           </div>
         </div>
