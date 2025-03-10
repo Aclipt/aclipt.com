@@ -59,8 +59,7 @@ jobs:
       - name: Static HTML export
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
-        # Updated to a version that uses actions/upload-artifact@v2 instead of v3
-        uses: actions/upload-pages-artifact@v2.1.0
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
@@ -73,5 +72,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        # Updated deploy-pages action to a version that uses the updated artifact uploader
-        uses: actions/deploy-pages@v2.1.0
+        uses: actions/deploy-pages@v4
