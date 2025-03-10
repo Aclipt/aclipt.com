@@ -18,8 +18,8 @@ export default function Home() {
 
       <div>
         <div className="pt-10">
-          <a href="https://www.youtube.com/watch?v=DFFPVsZp4jQ">Presentation</a>
-          <a href="https://www.youtube.com/watch?v=-Xxnd54l838">Professionals</a>
+          <a href="https://www.youtube.com/watch?v=DFFPVsZp4jQ" className="text-blue-300">Presentation</a><br/>
+          <a href="https://www.youtube.com/watch?v=-Xxnd54l838" className="text-blue-300">Professionals</a><br/>
           <br />
           <p><strong>Important Announcement</strong></p>
           <br />
