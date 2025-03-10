@@ -18,6 +18,9 @@ export default function Home() {
 
       <div>
         <div className="pt-10">
+          <a href="https://www.youtube.com/watch?v=DFFPVsZp4jQ">Presentation</a>
+          <a href="https://www.youtube.com/watch?v=-Xxnd54l838">Professionals</a>
+          <br />
           <p><strong>Important Announcement</strong></p>
           <br />
           <p>After much consideration, we have made the difficult decision to close down our online platform. We want to
